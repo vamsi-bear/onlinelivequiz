@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Online Live Quiz</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="logout">Logout</string>
+
+    <!-- Main -->
+    <string name="welcome">Welcome</string>
+    <string name="available_quizzes">Available Quizzes</string>
+    <string name="start_quiz">Start Quiz</string>
+
+    <!-- Quiz -->
+    <string name="submit_quiz">Submit Quiz</string>
+    <string name="next_question">Next</string>
+    <string name="previous_question">Previous</string>
+    <string name="quiz_completed">Quiz Completed</string>
+
+    <!-- Result -->
+    <string name="your_score">Your Score</string>
+    <string name="view_leaderboard">View Leaderboard</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboard">Leaderboard</string>
+    <string name="rank">Rank</string>
+    <string name="participant">Participant</string>
+    <string name="score">Score</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="create_new_quiz">Create New Quiz</string>
+    <string name="add_questions">Add Questions</string>
+    <string name="finish_quiz_creation">Finish Quiz Creation</string>
+
+</resources>

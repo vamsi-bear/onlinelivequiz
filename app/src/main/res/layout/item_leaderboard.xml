@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- Rank -->
+        <TextView
+            android:id="@+id/rankText"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_rank_circle"/>
+
+        <!-- User Name -->
+        <TextView
+            android:id="@+id/userNameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User Name"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"/>
+
+        <!-- Score -->
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:gravity="center"/>
+
+        <!-- Completion Time -->
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="06:42"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

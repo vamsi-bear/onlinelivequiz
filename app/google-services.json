@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "888687609512",
+    "project_id": "onlinelivequiz-c2ac6",
+    "storage_bucket": "onlinelivequiz-c2ac6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888687609512:android:5c50a4b0143980a7a7e49d",
+        "android_client_info": {
+          "package_name": "com.example.onlinelivequiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888687609512-sae7ajpk2mtost9cqcjlpe3c48e9205r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLVrZ05vJlHWujh3JY_2bJw_m0lALgAAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888687609512-sae7ajpk2mtost9cqcjlpe3c48e9205r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
